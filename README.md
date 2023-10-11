@@ -1,72 +1,34 @@
-# Godocs Documentation Template
+# SAS Fat to Slim Client Enrollment Tracking System
+This system provides franchise owners with a mechanism to track client enrollments in real-time, both online and offline, and ensure that all enrollments are accounted for. The system also automates royalty calculation and processing based on the number of enrolled clients, taking into account any discounts or promotions.
 
-![godocs](https://demo.themefisher.com/thumbnails/godocs.png)
+## Technologies Used
+- HTML 
+- CSS
+- JavaScript
+- PHP
+- MySQL
+- Bootstrap
 
-<!-- download -->
-## Download And installation
+## Features
+- Franchise owners can create profiles and register clients
+- Real-time tracking of client enrollments
+- Automated royalty calculation and processing
+- Secure payment gateway integration for royalty payments
+- Detailed reporting and analytics on client enrollment and royalty payments
 
-Download this template from [Github](https://github.com/themefisher/godocs/archive/main.zip)
+## Setup
+- Clone the repository
+- Import the database schema from database.sql
+- Configure the MySQL database credentials in config.php
+- Start the PHP server
 
-<!-- installation -->
-### Basic Usages
+## File Structure
+- index.php - Home page with login/register forms
+- dashboard.php - Dashboard page for franchise owners
+- profile.php - Profile page for franchise owners to manage their information
+- clients.php - Page for franchise owners to manage their clients
+- royalties.php - Page for franchise owners to view and process royalty payments
+- reporting.php - Page for franchise owners to view detailed reporting and analytics
 
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
-
-### Advanced Usage
-
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
-
-#### Install prerequisites (once for a machine)
-
-* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
-* **Gulp Installation:** Install gulp globally from your terminal
-
-```
-npm install --global gulp-cli
-```
-
-Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
-
-#### Local setup
-
-After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
-
-* Install dependencies
-
-```
-npm install
-```
-
-* Run locally
-
-```
-npm run dev
-```
-
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
-
-#### Production Build
-
-After finishing all the customization, you can create a production build by running this command.
-
-```
-npm run build
-```
-
-Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
-
-👉🏻 [visit documentation](https://docs.themefisher.com/godocs/)
-
-<!-- support -->
-## Technical Support or Questions (Paid)
-
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
-
-<!-- licence -->
 ## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/godocs/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+This project is licensed under the Hack the Tank License. See the LICENSE file for more information.
